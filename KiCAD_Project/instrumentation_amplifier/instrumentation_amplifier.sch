@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "GEARS Instrumentation Amplifier"
-Date "2021-04-14"
+Title "Instrumentation Amplifier Demo"
+Date "2021-04-21"
 Rev "1.0"
 Comp "Leeman Geophysical LLC"
 Comment1 "(479) 373-3736"
@@ -2594,7 +2594,7 @@ F 6 "Barrel Jack" H 1008 1584 50  0000 C CNN "PValue"
 	1    0    0    -1  
 $EndComp
 $Comp
-L instrumentation_amplifier-rescue:1-0000801-amplifiers U1
+L amplifiers:1-0000801 U1
 U 1 1 60778415
 P 6700 3825
 F 0 "U1" H 6850 3950 50  0000 L CNN
@@ -2630,8 +2630,8 @@ F 1 "1-0000006" V 4550 4450 50  0001 C CNN
 F 2 "resistors_0603:1-0000006" V 4480 4450 50  0001 C CNN
 F 3 "~" H 4550 4450 50  0001 C CNN
 F 4 "1-0000006" H 4550 4450 50  0001 C CNN "Internal Part Number"
-F 5 "NP" H 4550 4450 50  0001 C CNN "Populated"
-F 6 "0R0" V 4550 4375 50  0000 L CNN "PValue"
+F 5 "0" H 4550 4450 50  0001 C CNN "Populated"
+F 6 "NP" V 4550 4400 50  0000 L CNN "PValue"
 	1    4550 4450
 	1    0    0    -1  
 $EndComp
@@ -2747,11 +2747,11 @@ U 1 1 6078EDA3
 P 3875 3875
 F 0 "J1" H 3875 3675 50  0000 C CNN
 F 1 "1-0000120" H 3875 3675 50  0001 C CNN
-F 2 "capacitors_1206:1-0000191" H 3875 3875 50  0001 C CNN
+F 2 "connectors:1-0000120" H 3875 3875 50  0001 C CNN
 F 3 "~" H 3875 3875 50  0001 C CNN
 F 4 "1-0000120" H 3875 3875 50  0001 C CNN "Internal Part Number"
 F 5 "1" H 3875 3875 50  0001 C CNN "Populated"
-F 6 "TSW-102-07-T-S" H 3875 3575 50  0000 C CNN "PValue"
+F 6 "TSW-102-07-T-S" H 3875 3575 50  0001 C CNN "PValue"
 	1    3875 3875
 	-1   0    0    1   
 $EndComp
@@ -2849,7 +2849,7 @@ F 2 "connectors:1-0000120" H 8475 3825 50  0001 C CNN
 F 3 "~" H 8475 3825 50  0001 C CNN
 F 4 "1-0000120" H 8475 3825 50  0001 C CNN "Internal Part Number"
 F 5 "1" H 8475 3825 50  0001 C CNN "Populated"
-F 6 "TSW-102-07-T-S" H 8475 4025 50  0000 C CNN "PValue"
+F 6 "TSW-102-07-T-S" H 8475 4025 50  0001 C CNN "PValue"
 	1    8475 3825
 	1    0    0    -1  
 $EndComp
@@ -2931,10 +2931,12 @@ $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J3
 U 1 1 607ABDFA
 P 4425 2600
-F 0 "J3" V 4429 2680 50  0000 L CNN
-F 1 "Jumper" V 4520 2680 50  0000 L CNN
+F 0 "J3" V 4425 2325 50  0000 L CNN
+F 1 "Jumper" V 4525 2150 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 4425 2600 50  0001 C CNN
 F 3 "~" H 4425 2600 50  0001 C CNN
+F 4 "0-0000000" H 4425 2600 50  0001 C CNN "Internal Part Number"
+F 5 "0" H 4425 2600 50  0001 C CNN "Populated"
 	1    4425 2600
 	0    1    1    0   
 $EndComp
@@ -3018,6 +3020,8 @@ F 0 "J2" V 4329 5205 50  0000 L CNN
 F 1 "Jumper" V 4420 5205 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 4325 5125 50  0001 C CNN
 F 3 "~" H 4325 5125 50  0001 C CNN
+F 4 "0-0000000" H 4325 5125 50  0001 C CNN "Internal Part Number"
+F 5 "0" H 4325 5125 50  0001 C CNN "Populated"
 	1    4325 5125
 	0    -1   -1   0   
 $EndComp
@@ -3198,46 +3202,58 @@ F 6 "150" V 6175 7225 50  0000 C CNN "PValue"
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L mechanical:M3_ISO_7380 H1
 U 1 1 60869A6E
 P 700 6825
 F 0 "H1" H 800 6871 50  0000 L CNN
 F 1 "MountingHole" H 800 6780 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.1mm" H 700 6825 50  0001 C CNN
-F 3 "~" H 700 6825 50  0001 C CNN
+F 2 "mechanical:MountingHole_3.2mm_M3_ISO7380" H 700 6825 50  0001 C CNN
+F 3 "None" H 700 6825 50  0001 C CNN
+F 4 "0-0000000" H 700 6825 50  0001 C CNN "Internal Part Number"
+F 5 "0" H 700 6825 50  0001 C CNN "Populated"
+F 6 "M3" H 700 6825 50  0001 C CNN "PValue"
 	1    700  6825
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L mechanical:M3_ISO_7380 H2
 U 1 1 6086A8C6
 P 700 7075
 F 0 "H2" H 800 7121 50  0000 L CNN
 F 1 "MountingHole" H 800 7030 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.1mm" H 700 7075 50  0001 C CNN
-F 3 "~" H 700 7075 50  0001 C CNN
+F 2 "mechanical:MountingHole_3.2mm_M3_ISO7380" H 700 7075 50  0001 C CNN
+F 3 "None" H 700 7075 50  0001 C CNN
+F 4 "0-0000000" H 700 7075 50  0001 C CNN "Internal Part Number"
+F 5 "0" H 700 7075 50  0001 C CNN "Populated"
+F 6 "M3" H 700 7075 50  0001 C CNN "PValue"
 	1    700  7075
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L mechanical:M3_ISO_7380 H3
 U 1 1 6086B2CF
 P 700 7325
 F 0 "H3" H 800 7371 50  0000 L CNN
 F 1 "MountingHole" H 800 7280 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.1mm" H 700 7325 50  0001 C CNN
-F 3 "~" H 700 7325 50  0001 C CNN
+F 2 "mechanical:MountingHole_3.2mm_M3_ISO7380" H 700 7325 50  0001 C CNN
+F 3 "None" H 700 7325 50  0001 C CNN
+F 4 "0-0000000" H 700 7325 50  0001 C CNN "Internal Part Number"
+F 5 "0" H 700 7325 50  0001 C CNN "Populated"
+F 6 "M3" H 700 7325 50  0001 C CNN "PValue"
 	1    700  7325
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L mechanical:M3_ISO_7380 H4
 U 1 1 6086D5E1
 P 700 7575
 F 0 "H4" H 800 7621 50  0000 L CNN
 F 1 "MountingHole" H 800 7530 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.1mm" H 700 7575 50  0001 C CNN
-F 3 "~" H 700 7575 50  0001 C CNN
+F 2 "mechanical:MountingHole_3.2mm_M3_ISO7380" H 700 7575 50  0001 C CNN
+F 3 "None" H 700 7575 50  0001 C CNN
+F 4 "0-0000000" H 700 7575 50  0001 C CNN "Internal Part Number"
+F 5 "0" H 700 7575 50  0001 C CNN "Populated"
+F 6 "M3" H 700 7575 50  0001 C CNN "PValue"
 	1    700  7575
 	1    0    0    -1  
 $EndComp
@@ -3250,25 +3266,167 @@ Connection ~ 6700 2750
 Wire Wire Line
 	6700 2750 6700 3125
 $Comp
-L Mechanical:Fiducial FID1
+L mechanical:Fiducial_1mm_2mm FID1
 U 1 1 607C3F0B
 P 1575 6825
 F 0 "FID1" H 1660 6871 50  0000 L CNN
 F 1 "Fiducial" H 1660 6780 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 1575 6825 50  0001 C CNN
+F 2 "mechanical:Fiducial_1mm_Mask2mm" H 1575 6825 50  0001 C CNN
 F 3 "~" H 1575 6825 50  0001 C CNN
+F 4 "0-0000000" H 1575 6825 50  0001 C CNN "Internal Part Number"
+F 5 "0" H 1575 6825 50  0001 C CNN "Populated"
+F 6 "Fiducial" H 1575 6825 50  0001 C CNN "PValue"
 	1    1575 6825
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID2
+L mechanical:Fiducial_1mm_2mm FID2
 U 1 1 607C4B56
 P 1575 7100
 F 0 "FID2" H 1660 7146 50  0000 L CNN
 F 1 "Fiducial" H 1660 7055 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 1575 7100 50  0001 C CNN
+F 2 "mechanical:Fiducial_1mm_Mask2mm" H 1575 7100 50  0001 C CNN
 F 3 "~" H 1575 7100 50  0001 C CNN
+F 4 "0-0000000" H 1575 7100 50  0001 C CNN "Internal Part Number"
+F 5 "0" H 1575 7100 50  0001 C CNN "Populated"
+F 6 "Fiducial" H 1575 7100 50  0001 C CNN "PValue"
 	1    1575 7100
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 60809472
+P -600 1300
+F 0 "#PWR0113" H -600 1150 50  0001 C CNN
+F 1 "+5V" H -585 1473 50  0000 C CNN
+F 2 "" H -600 1300 50  0001 C CNN
+F 3 "" H -600 1300 50  0001 C CNN
+	1    -600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR0114
+U 1 1 608096D5
+P -950 1300
+F 0 "#PWR0114" H -950 1400 50  0001 C CNN
+F 1 "-5V" H -935 1473 50  0000 C CNN
+F 2 "" H -950 1300 50  0001 C CNN
+F 3 "" H -950 1300 50  0001 C CNN
+	1    -950 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 60809941
+P -1350 1300
+F 0 "#PWR0115" H -1350 1050 50  0001 C CNN
+F 1 "GND" H -1345 1127 50  0000 C CNN
+F 2 "" H -1350 1300 50  0001 C CNN
+F 3 "" H -1350 1300 50  0001 C CNN
+	1    -1350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60809C8F
+P -950 1300
+F 0 "#FLG0101" H -950 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H -950 1473 50  0000 C CNN
+F 2 "" H -950 1300 50  0001 C CNN
+F 3 "~" H -950 1300 50  0001 C CNN
+	1    -950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 6080A993
+P -1350 1300
+F 0 "#FLG0102" H -1350 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H -1350 1473 50  0000 C CNN
+F 2 "" H -1350 1300 50  0001 C CNN
+F 3 "~" H -1350 1300 50  0001 C CNN
+	1    -1350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 6080AF02
+P -600 1300
+F 0 "#FLG0103" H -600 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H -600 1473 50  0000 C CNN
+F 2 "" H -600 1300 50  0001 C CNN
+F 3 "~" H -600 1300 50  0001 C CNN
+	1    -600 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L misc:barepcb PCB1
+U 1 1 6081342E
+P 10600 6325
+F 0 "PCB1" H 10500 6375 50  0000 L CNN
+F 1 "barepcb" H 10450 6275 50  0000 L CNN
+F 2 "misc:barepcb" H 10600 6325 50  0001 C CNN
+F 3 "" H 10600 6325 50  0001 C CNN
+F 4 "3-0000082" H 10600 6325 50  0001 C CNN "Internal Part Number"
+F 5 "1" H 10600 6325 50  0001 C CNN "Populated"
+F 6 "Bare PCB" H 10600 6325 50  0001 C CNN "PValue"
+	1    10600 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L np_connectors:NP_Conn_01x04 J5
+U 1 1 6081C83C
+P 2175 3875
+F 0 "J5" H 2255 3867 50  0000 L CNN
+F 1 "NP_Conn_01x04" H 2175 3575 50  0001 C CNN
+F 2 "np_connectors:PinHeader_1x04_P2.54mm_Vertical" H 2175 3875 50  0001 C CNN
+F 3 "~" H 2175 3875 50  0001 C CNN
+F 4 "0-0000000" H 2175 3875 50  0001 C CNN "Internal Part Number"
+F 5 "0" H 2175 3875 50  0001 C CNN "Populated"
+F 6 "Power" H 2255 3776 50  0000 L CNN "PValue"
+	1    2175 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR0116
+U 1 1 6081E16C
+P 1975 4075
+F 0 "#PWR0116" H 1975 4175 50  0001 C CNN
+F 1 "-5V" H 1990 4248 50  0000 C CNN
+F 2 "" H 1975 4075 50  0001 C CNN
+F 3 "" H 1975 4075 50  0001 C CNN
+	1    1975 4075
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 6081E5EF
+P 1975 3775
+F 0 "#PWR0117" H 1975 3625 50  0001 C CNN
+F 1 "+5V" H 1990 3948 50  0000 C CNN
+F 2 "" H 1975 3775 50  0001 C CNN
+F 3 "" H 1975 3775 50  0001 C CNN
+	1    1975 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 6081EBDE
+P 1725 4100
+F 0 "#PWR0118" H 1725 3850 50  0001 C CNN
+F 1 "GND" H 1730 3927 50  0000 C CNN
+F 2 "" H 1725 4100 50  0001 C CNN
+F 3 "" H 1725 4100 50  0001 C CNN
+	1    1725 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1725 4100 1725 3975
+Wire Wire Line
+	1725 3975 1975 3975
+Wire Wire Line
+	1975 3875 1725 3875
+Wire Wire Line
+	1725 3875 1725 3975
+Connection ~ 1725 3975
 $EndSCHEMATC

@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\jleeman\git_repos\Instrumentation_Amplifier_Demo_PCB\instrumentation_amplifier\instrumentation_amplifier.sch</source>
+    <date>4/21/2021 10:01:43 PM</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Instrumentation Amplifier Demo</title>
+        <company>Leeman Geophysical LLC</company>
+        <rev>1.0</rev>
+        <date>2021-04-21</date>
+        <source>instrumentation_amplifier.sch</source>
+        <comment number="1" value="(479) 373-3736"/>
+        <comment number="2" value="Siloam Springs, Ar 72761"/>
+        <comment number="3" value="850 South Lincoln St."/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CON1">
+      <value>1-0000001</value>
+      <footprint>connectors:1-0000001</footprint>
+      <fields>
+        <field name="Internal Part Number">1-0000001</field>
+        <field name="PValue">Barrel Jack</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="connectors" part="1-0000001" description="Power Barrel Connector Jack 2.10mm ID (0.083&quot;), 5.50mm OD (0.217&quot;) Surface Mount, Right Angle"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60774DDA</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>1-0000801</value>
+      <footprint>amplifiers:1-0000801</footprint>
+      <fields>
+        <field name="Internal Part Number">1-0000801</field>
+        <field name="PValue">INA129</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="amplifiers" part="1-0000801" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60778415</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>1-0000852</value>
+      <footprint>switches:1-0000852</footprint>
+      <fields>
+        <field name="Internal Part Number">1-0000852</field>
+        <field name="PValue">1P-5T</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="instrumentation_amplifier-rescue" part="1-0000852-switches" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60780061</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1-0000006</value>
+      <footprint>resistors_0603:1-0000006</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000006</field>
+        <field name="PValue">NP</field>
+        <field name="Populated">0</field>
+      </fields>
+      <libsource lib="resistors_0603" part="1-0000006" description="0 Ohm Resistor 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60782231</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1-0000177</value>
+      <footprint>resistors_0603:1-0000177</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000177</field>
+        <field name="PValue">5.49k</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0603" part="1-0000177" description="Resistor 5.49k 0.1% 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60785AFA</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1-0000112</value>
+      <footprint>resistors_0603:1-0000112</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000112</field>
+        <field name="PValue">100</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0603" part="1-0000112" description="Resistor 100 1% 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607878B8</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1-0000179</value>
+      <footprint>resistors_0603:1-0000179</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000179</field>
+        <field name="PValue">499</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0603" part="1-0000179" description="Resistor 499 0.1% 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607883FD</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1-0000851</value>
+      <footprint>resistors_0603:1-0000851</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000851</field>
+        <field name="PValue">49.9k</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0603" part="1-0000851" description="49.9k Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60789E07</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>1-0000120</value>
+      <footprint>connectors:1-0000120</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000120</field>
+        <field name="PValue">TSW-102-07-T-S</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="connectors" part="1-0000120" description="Generic connector, single row, 01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6078EDA3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1-0000018</value>
+      <footprint>capacitors_0603:1-0000018</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000018</field>
+        <field name="PValue">1uF</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="capacitors_0603" part="1-0000018" description="1uF 10% X7R 25V 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079697B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1-0000007</value>
+      <footprint>capacitors_0603:1-0000007</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000007</field>
+        <field name="PValue">0.1uF</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="capacitors_0603" part="1-0000007" description="0.1uF 10% X7R 25V 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079889D</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>1-0000120</value>
+      <footprint>connectors:1-0000120</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000120</field>
+        <field name="PValue">TSW-102-07-T-S</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="connectors" part="1-0000120" description="Generic connector, single row, 01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079BC80</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1-0000018</value>
+      <footprint>capacitors_0603:1-0000018</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000018</field>
+        <field name="PValue">1uF</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="capacitors_0603" part="1-0000018" description="1uF 10% X7R 25V 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A0A4C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1-0000007</value>
+      <footprint>capacitors_0603:1-0000007</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000007</field>
+        <field name="PValue">0.1uF</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="capacitors_0603" part="1-0000007" description="0.1uF 10% X7R 25V 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A0A55</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="Populated">0</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Counter_Clockwise" description="Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607ABDFA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1-0000010</value>
+      <footprint>resistors_0603:1-0000010</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000010</field>
+        <field name="PValue">10k</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0603" part="1-0000010" description="10k Ohm Resistor 0603 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607B0805</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1-0000011</value>
+      <footprint>resistors_0603:1-0000011</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000011</field>
+        <field name="PValue">47k</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0603" part="1-0000011" description="Resistor 47k 1% 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607B174B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="Populated">0</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Counter_Clockwise" description="Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607C3542</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1-0000010</value>
+      <footprint>resistors_0603:1-0000010</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000010</field>
+        <field name="PValue">10k</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0603" part="1-0000010" description="10k Ohm Resistor 0603 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607C354B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1-0000011</value>
+      <footprint>resistors_0603:1-0000011</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000011</field>
+        <field name="PValue">47k</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0603" part="1-0000011" description="Resistor 47k 1% 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607C3554</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>1-0000465</value>
+      <footprint>dc_dc_converters:1-0000465</footprint>
+      <fields>
+        <field name="Internal Part Number">1-0000465</field>
+        <field name="PValue">TEC2-0921</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="dc_dc_converters" part="1-0000465" description="DC DC CONVERTER +/-5V 2W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60817BF2</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1-0000598</value>
+      <footprint>leds_0805:1-0000598</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000598</field>
+        <field name="PValue">Green</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="leds_0805" part="1-0000598" description="Light emitting diode Green"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607DF6D9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1-0000008</value>
+      <footprint>resistors_0603:1-0000008</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000008</field>
+        <field name="PValue">150</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0603" part="1-0000008" description="150 Ohm Resistor 0603 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607DCDC7</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>mechanical:MountingHole_3.2mm_M3_ISO7380</footprint>
+      <datasheet>None</datasheet>
+      <fields>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="PValue">M3</field>
+        <field name="Populated">0</field>
+      </fields>
+      <libsource lib="mechanical" part="M3_ISO_7380" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60869A6E</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>mechanical:MountingHole_3.2mm_M3_ISO7380</footprint>
+      <datasheet>None</datasheet>
+      <fields>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="PValue">M3</field>
+        <field name="Populated">0</field>
+      </fields>
+      <libsource lib="mechanical" part="M3_ISO_7380" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6086A8C6</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>mechanical:MountingHole_3.2mm_M3_ISO7380</footprint>
+      <datasheet>None</datasheet>
+      <fields>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="PValue">M3</field>
+        <field name="Populated">0</field>
+      </fields>
+      <libsource lib="mechanical" part="M3_ISO_7380" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6086B2CF</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>mechanical:MountingHole_3.2mm_M3_ISO7380</footprint>
+      <datasheet>None</datasheet>
+      <fields>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="PValue">M3</field>
+        <field name="Populated">0</field>
+      </fields>
+      <libsource lib="mechanical" part="M3_ISO_7380" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6086D5E1</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>mechanical:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="PValue">Fiducial</field>
+        <field name="Populated">0</field>
+      </fields>
+      <libsource lib="mechanical" part="Fiducial_1mm_2mm" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607C3F0B</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>mechanical:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="PValue">Fiducial</field>
+        <field name="Populated">0</field>
+      </fields>
+      <libsource lib="mechanical" part="Fiducial_1mm_2mm" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607C4B56</tstamp>
+    </comp>
+    <comp ref="PCB1">
+      <value>barepcb</value>
+      <footprint>misc:barepcb</footprint>
+      <fields>
+        <field name="Internal Part Number">3-0000082</field>
+        <field name="PValue">Bare PCB</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="misc" part="barepcb" description="Bare PCB BOM Item"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081342E</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>NP_Conn_01x04</value>
+      <footprint>np_connectors:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="PValue">Power</field>
+        <field name="Populated">0</field>
+      </fields>
+      <libsource lib="np_connectors" part="NP_Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081C83C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Counter_Clockwise">
+      <description>Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifiers" part="1-0000801">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1-0000801</field>
+        <field name="Footprint">amplifiers:1-0000801</field>
+        <field name="Internal Part Number">1-0000801</field>
+        <field name="Populated">1</field>
+        <field name="PValue">INA129</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Rg" type="passive"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="Ref" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="Rg" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitors_0603" part="1-0000007">
+      <description>0.1uF 10% X7R 25V 0603</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1-0000007</field>
+        <field name="Footprint">capacitors_0603:1-0000007</field>
+        <field name="Internal Part Number">1-0000007</field>
+        <field name="Populated">1</field>
+        <field name="PValue">0.1uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitors_0603" part="1-0000018">
+      <description>1uF 10% X7R 25V 0603</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1-0000018</field>
+        <field name="Footprint">capacitors_0603:1-0000018</field>
+        <field name="Internal Part Number">1-0000018</field>
+        <field name="Populated">1</field>
+        <field name="PValue">1uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="1-0000001">
+      <description>Power Barrel Connector Jack 2.10mm ID (0.083"), 5.50mm OD (0.217") Surface Mount, Right Angle</description>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">1-0000001</field>
+        <field name="Footprint">connectors:1-0000001</field>
+        <field name="Internal Part Number">1-0000001</field>
+        <field name="Populated">1</field>
+        <field name="PValue">Barrel Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="1-0000120">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1-0000120</field>
+        <field name="Footprint">connectors:1-0000120</field>
+        <field name="Internal Part Number">1-0000120</field>
+        <field name="Populated">1</field>
+        <field name="PValue">TSW-102-07-T-S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dc_dc_converters" part="1-0000465">
+      <description>DC DC CONVERTER +/-5V 2W</description>
+      <footprints>
+        <fp>Converter*DCDC*TRACO*TMR*xxxx*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1-0000465</field>
+        <field name="Footprint">dc_dc_converters:1-0000465</field>
+        <field name="Internal Part Number">1-0000465</field>
+        <field name="Populated">1</field>
+        <field name="PValue">TEC2-0921</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GNDin" type="passive"/>
+        <pin num="2" name="Vin" type="passive"/>
+        <pin num="3" name="ON/~OFF" type="passive"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="+Out" type="passive"/>
+        <pin num="7" name="VoutCom" type="passive"/>
+        <pin num="8" name="-Out" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="instrumentation_amplifier-rescue" part="1-0000852-switches">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">1-0000852-switches</field>
+        <field name="Footprint">switches:1-0000852</field>
+        <field name="Internal Part Number">1-0000852</field>
+        <field name="Populated">1</field>
+        <field name="PValue">1P-5T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="leds_0805" part="1-0000598">
+      <description>Light emitting diode Green</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1-0000598</field>
+        <field name="Footprint">leds_0805:1-0000598</field>
+        <field name="Internal Part Number">1-0000598</field>
+        <field name="Populated">1</field>
+        <field name="PValue">Green</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mechanical" part="Fiducial_1mm_2mm">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial_1mm_2mm</field>
+        <field name="Footprint">mechanical:Fiducial_1mm_Mask2mm</field>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="Populated">0</field>
+        <field name="PValue">Fiducial</field>
+      </fields>
+    </libpart>
+    <libpart lib="mechanical" part="M3_ISO_7380">
+      <description>Mounting Hole without connection</description>
+      <docs>None</docs>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">M3_ISO_7380</field>
+        <field name="Footprint">mechanical:MountingHole_3.2mm_M3_ISO7380</field>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="Populated">0</field>
+        <field name="PValue">M3</field>
+      </fields>
+    </libpart>
+    <libpart lib="misc" part="barepcb">
+      <description>Bare PCB BOM Item</description>
+      <fields>
+        <field name="Reference">PCB</field>
+        <field name="Value">barepcb</field>
+        <field name="Footprint">misc:barepcb</field>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="Populated">0</field>
+        <field name="PValue">Bare PCB</field>
+      </fields>
+    </libpart>
+    <libpart lib="np_connectors" part="NP_Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NP_Conn_01x04</field>
+        <field name="Footprint">np_connectors:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="Populated">0</field>
+        <field name="PValue">NP_Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_0603" part="1-0000006">
+      <description>0 Ohm Resistor 0603</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1-0000006</field>
+        <field name="Footprint">resistors_0603:1-0000006</field>
+        <field name="Internal Part Number">1-0000006</field>
+        <field name="Populated">1</field>
+        <field name="PValue">0R0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_0603" part="1-0000008">
+      <description>150 Ohm Resistor 0603 1%</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1-0000008</field>
+        <field name="Footprint">resistors_0603:1-0000008</field>
+        <field name="Internal Part Number">1-0000008</field>
+        <field name="Populated">1</field>
+        <field name="PValue">150</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_0603" part="1-0000010">
+      <description>10k Ohm Resistor 0603 1%</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1-0000010</field>
+        <field name="Footprint">resistors_0603:1-0000010</field>
+        <field name="Internal Part Number">1-0000010</field>
+        <field name="Populated">1</field>
+        <field name="PValue">10k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_0603" part="1-0000011">
+      <description>Resistor 47k 1% 0603</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1-0000011</field>
+        <field name="Footprint">resistors_0603:1-0000011</field>
+        <field name="Internal Part Number">1-0000011</field>
+        <field name="Populated">1</field>
+        <field name="PValue">47k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_0603" part="1-0000112">
+      <description>Resistor 100 1% 0603</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1-0000112</field>
+        <field name="Footprint">resistors_0603:1-0000112</field>
+        <field name="Internal Part Number">1-0000112</field>
+        <field name="Populated">1</field>
+        <field name="PValue">100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_0603" part="1-0000177">
+      <description>Resistor 5.49k 0.1% 0603</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1-0000177</field>
+        <field name="Footprint">resistors_0603:1-0000177</field>
+        <field name="Internal Part Number">1-0000177</field>
+        <field name="Populated">1</field>
+        <field name="PValue">5.49k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_0603" part="1-0000179">
+      <description>Resistor 499 0.1% 0603</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1-0000179</field>
+        <field name="Footprint">resistors_0603:1-0000179</field>
+        <field name="Internal Part Number">1-0000179</field>
+        <field name="Populated">1</field>
+        <field name="PValue">499</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_0603" part="1-0000851">
+      <description>49.9k Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1-0000851</field>
+        <field name="Footprint">resistors_0603:1-0000851</field>
+        <field name="Internal Part Number">1-0000851</field>
+        <field name="Populated">1</field>
+        <field name="PValue">49.9k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="amplifiers">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\amplifiers.lib</uri>
+    </library>
+    <library logical="capacitors_0603">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\capacitors_0603.lib</uri>
+    </library>
+    <library logical="connectors">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\connectors.lib</uri>
+    </library>
+    <library logical="dc_dc_converters">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\dc_dc_converters.lib</uri>
+    </library>
+    <library logical="instrumentation_amplifier-rescue">
+      <uri>C:\Users\jleeman\git_repos\Instrumentation_Amplifier_Demo_PCB\instrumentation_amplifier/instrumentation_amplifier-rescue.lib</uri>
+    </library>
+    <library logical="leds_0805">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\leds_0805.lib</uri>
+    </library>
+    <library logical="mechanical">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\mechanical.lib</uri>
+    </library>
+    <library logical="misc">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\misc.lib</uri>
+    </library>
+    <library logical="np_connectors">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\np_connectors.lib</uri>
+    </library>
+    <library logical="resistors_0603">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\resistors_0603.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J2-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J2-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="J5" pin="3"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(CON1-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="CON1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="7" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="8" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="10" name="+5V">
+      <node ref="U1" pin="7"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="11" name="-5V">
+      <node ref="U2" pin="8"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="12" name="Net-(CON1-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="CON1" pin="3"/>
+      <node ref="CON1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(SW1-PadC)">
+      <node ref="SW1" pin="C"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R8-Pad1)">
+      <node ref="SW1" pin="3"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R9-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="17" name="Net-(R7-Pad1)">
+      <node ref="SW1" pin="4"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="18" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="SW1" pin="5"/>
+    </net>
+    <net code="19" name="Net-(R10-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R10-Pad2)">
+      <node ref="U1" pin="8"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="21" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="23" name="Net-(J1-Pad1)">
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J1-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="4"/>
+    </net>
+  </nets>
+</export>

@@ -24,33 +24,30 @@ X Pin_4 4 300 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical_Fiducial
+# amplifiers_1-0000801
 #
-DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
-F0 "FID" 0 200 50 H V C CNN
-F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF amplifiers_1-0000801 U 0 5 Y Y 1 F N
+F0 "U" 150 125 50 H V L CNN
+F1 "amplifiers_1-0000801" 150 -125 50 H I L CNN
+F2 "amplifiers:1-0000801" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+F4 "1-0000801" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "INA129" 0 0 50 H V C CNN "PValue"
 $FPLIST
- Fiducial*
+ DIP*W7.62mm*
+ SOIC*P1.27mm*
 $ENDFPLIST
 DRAW
-C 0 0 50 0 1 20 f
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole
-#
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
+P 4 0 1 10 300 0 -200 250 -200 -250 300 0 f
+X Rg 1 -300 100 100 R 50 50 1 1 P
+X - 2 -300 -200 100 R 50 50 1 1 I
+X + 3 -300 200 100 R 50 50 1 1 I
+X V- 4 0 -300 150 U 50 50 1 1 W
+X Ref 5 100 -300 200 U 50 50 1 1 I
+X ~ 6 400 0 100 L 50 50 1 1 O
+X V+ 7 0 300 150 D 50 50 1 1 W
+X Rg 8 -300 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -164,33 +161,6 @@ X -Out 8 500 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# instrumentation_amplifier-rescue_1-0000801-amplifiers
-#
-DEF instrumentation_amplifier-rescue_1-0000801-amplifiers U 0 5 Y Y 1 F N
-F0 "U" 150 125 50 H V L CNN
-F1 "instrumentation_amplifier-rescue_1-0000801-amplifiers" 150 -125 50 H I L CNN
-F2 "amplifiers:1-0000801" 100 0 50 H I C CNN
-F3 "" 100 0 50 H I C CNN
-F4 "1-0000801" 0 0 50 H I C CNN "Internal Part Number"
-F5 "1" 0 0 50 H I C CNN "Populated"
-F6 "INA129" 0 0 50 H V C CNN "PValue"
-$FPLIST
- DIP*W7.62mm*
- SOIC*P1.27mm*
-$ENDFPLIST
-DRAW
-P 4 0 1 10 300 0 -200 250 -200 -250 300 0 f
-X Rg 1 -300 100 100 R 50 50 1 1 P
-X - 2 -300 -200 100 R 50 50 1 1 I
-X + 3 -300 200 100 R 50 50 1 1 I
-X V- 4 0 -300 150 U 50 50 1 1 W
-X Ref 5 100 -300 200 U 50 50 1 1 I
-X ~ 6 400 0 100 L 50 50 1 1 O
-X V+ 7 0 300 150 D 50 50 1 1 W
-X Rg 8 -300 -100 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # instrumentation_amplifier-rescue_1-0000852-switches
 #
 DEF instrumentation_amplifier-rescue_1-0000852-switches SW 0 40 Y N 1 F N
@@ -244,6 +214,74 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# mechanical_Fiducial_1mm_2mm
+#
+DEF mechanical_Fiducial_1mm_2mm FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "mechanical_Fiducial_1mm_2mm" 0 125 50 H I C CNN
+F2 "mechanical:Fiducial_1mm_Mask2mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "Fiducial" 0 0 50 H I C CNN "PValue"
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+# mechanical_M3_ISO_7380
+#
+DEF mechanical_M3_ISO_7380 H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "mechanical_M3_ISO_7380" 0 125 50 H I C CNN
+F2 "mechanical:MountingHole_3.2mm_M3_ISO7380" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "M3" 0 0 50 H I C CNN "PValue"
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# misc_barepcb
+#
+DEF misc_barepcb PCB 0 40 Y Y 1 F N
+F0 "PCB" -100 150 50 H V C CNN
+F1 "misc_barepcb" 0 0 50 H V C CNN
+F2 "misc:barepcb" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "Bare PCB" 0 0 50 H I C CNN "PValue"
+DRAW
+S -200 100 200 -100 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# np_connectors_NP_Conn_01x04
+#
+DEF np_connectors_NP_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "np_connectors_NP_Conn_01x04" 0 -300 50 H I C CNN
+F2 "np_connectors:PinHeader_1x04_P2.54mm_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "NP_Conn_01x04" 0 0 50 H V C CNN "PValue"
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_+5V
 #
 DEF power_+5V #PWR 0 0 Y Y 1 F P
@@ -282,6 +320,19 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
