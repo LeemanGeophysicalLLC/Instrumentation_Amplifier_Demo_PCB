@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Instrumentation Amplifier Demo"
-Date "2021-04-21"
-Rev "1.0"
+Date "2021-05-11"
+Rev "1.1"
 Comp "Leeman Geophysical LLC"
 Comment1 "(479) 373-3736"
 Comment2 "Siloam Springs, Ar 72761"
@@ -3090,7 +3090,6 @@ F 3 "" H 3175 1450 50  0001 C CNN
 	1    3175 1450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5300 4150
 $Comp
 L dc_dc_converters:1-0000465 U2
 U 1 1 60817BF2
@@ -3363,7 +3362,7 @@ F 0 "PCB1" H 10500 6375 50  0000 L CNN
 F 1 "barepcb" H 10450 6275 50  0000 L CNN
 F 2 "misc:barepcb" H 10600 6325 50  0001 C CNN
 F 3 "" H 10600 6325 50  0001 C CNN
-F 4 "3-0000082" H 10600 6325 50  0001 C CNN "Internal Part Number"
+F 4 "3-0000087" H 10600 6325 50  0001 C CNN "Internal Part Number"
 F 5 "1" H 10600 6325 50  0001 C CNN "Populated"
 F 6 "Bare PCB" H 10600 6325 50  0001 C CNN "PValue"
 	1    10600 6325

@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.7)-1"
     },
-    "CreationDate":  "2021-04-21T22:03:09-05:00"
+    "CreationDate":  "2021-05-11T13:40:29-05:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "instrumentation_amplifier",
       "GUID": "696e7374-7275-46d6-956e-746174696f6e",
-      "Revision": "1.0"
+      "Revision": "1.1"
     },
     "Size":
     {

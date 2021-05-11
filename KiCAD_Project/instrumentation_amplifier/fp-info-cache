@@ -1,4 +1,4 @@
-19395529630581508
+19436043684750759
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82719,6 +82719,13 @@ SOIC SO
 8
 8
 amplifiers
+1-0000255
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+amplifiers
 1-0000419
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
 SOIC 1.27
@@ -82749,6 +82756,13 @@ BATTERY HOLDER COIN 16MM SMD
 batteries
 1-0000494
 
+
+0
+2
+2
+batteries
+1-0000863
+Battery Holder (Open) Coin, 20.0mm 1 Cell PC Pin
 
 0
 2
@@ -82922,6 +82936,13 @@ capacitor
 2
 2
 capacitors_0603
+1-0000324
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal
+capacitor
+0
+2
+2
+capacitors_0603
 1-0000418
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal
 capacitor
@@ -82972,6 +82993,13 @@ capacitor
 2
 capacitors_0805
 1-0000137
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal
+capacitor
+0
+2
+2
+capacitors_0805
+1-0000352
 Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal
 capacitor
 0
@@ -83160,6 +83188,13 @@ connectors
 3
 3
 connectors
+1-0000495
+
+
+0
+10
+10
+connectors
 1-0000810
 
 
@@ -83180,6 +83215,13 @@ connectors
 0
 4
 4
+connectors
+1-0000867
+
+
+0
+12
+12
 crystals_resonators
 1-0000041
 16MHz ±30ppm Crystal 20pF 40 Ohms HC-49/US
@@ -83196,6 +83238,13 @@ CRYSTAL 5.0000MHZ 20PF SMD
 2
 crystals_resonators
 1-0000569
+
+
+0
+3
+3
+crystals_resonators
+1-0000721
 
 
 0
@@ -83222,6 +83271,13 @@ dc_dc_converters
 0
 7
 7
+dc_dc_converters
+1-0000608
+
+
+0
+3
+3
 diodes
 1-0000003
 SOD-323
@@ -83279,6 +83335,27 @@ SOT-363 SC-70-6
 6
 6
 diodes
+1-0000218
+
+SOD-80C
+0
+2
+2
+diodes
+1-0000331
+Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+diodes
+1-0000610
+
+DO-214AC diode
+0
+2
+2
+diodes
 1-0000821
 Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
 Diode DO-41_SOD81 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm
@@ -83326,6 +83403,13 @@ Fuse Clip 10A  1 Circuit Cartridge Through Hole
 FUSE CLIP CARTRIDGE 10A PCB
 0
 4
+2
+fuses
+1-0000609
+1210 Fuse
+inductor
+0
+2
 2
 inductors
 1-0000088
@@ -83468,6 +83552,13 @@ IC MCU 32BIT 32KB ROM 44LQFP
 44
 44
 microcontrollers
+1-0000207
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+microcontrollers
 1-0000719
 32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
 QFP 0.8
@@ -83483,6 +83574,20 @@ barepcb
 0
 mosfets
 1-0000163
+SOT-23, Standard
+SOT-23
+0
+3
+3
+mosfets
+1-0000500
+SOT-23, Standard
+SOT-23
+0
+3
+3
+mosfets
+1-0000505
 SOT-23, Standard
 SOT-23
 0
@@ -83537,6 +83642,34 @@ Through hole pin header THT 2x03 2.54mm double row
 0
 6
 6
+np_connectors
+SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+2
+2
+np_connectors
+SolderWire-0.5sqmm_1x04_P4.6mm_D0.9mm_OD2.1mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+4
+4
+np_connectors
+SolderWire-0.5sqmm_1x06_P4.6mm_D0.9mm_OD2.1mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+6
+6
+np_connectors
+SolderWire-0.5sqmm_1x08_P4.6mm_D0.9mm_OD2.1mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+8
+8
 others
 1-0000086
 LC EMI Filter 5th Order Low Pass 2 Channel C = 10µF 20A 4-SMD, No Lead
@@ -83572,6 +83705,13 @@ others
 0
 10
 10
+pcb_graphics
+PCB Logo Standard
+
+
+0
+0
+0
 pcb_graphics
 logo2
 
@@ -83705,6 +83845,13 @@ IC REG LINEAR 3.3V 200MA SMV
 0
 5
 5
+regulators
+1-0000866
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+3
+3
 relays
 1-0000118
 Telecom Relay DPDT (2 Form C) Through Hole
@@ -84447,6 +84594,13 @@ resistor
 0
 2
 2
+resistors_0603
+1-0000865
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal
+resistor
+0
+2
+2
 resistors_0805
 1-0000100
 Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal
@@ -84699,6 +84853,20 @@ resistors_variable
 0
 3
 3
+resistors_variable
+1-0000337
+
+
+0
+3
+3
+resistors_variable
+1-0000594
+
+
+0
+3
+3
 rtcs
 1-0000133
 Real Time Clock (RTC) IC Clock/Calendar  I²C, 2-Wire Serial 16-SOIC (0.295", 7.50mm Width)
@@ -84741,6 +84909,13 @@ IC SWITCH QUAD SPST 16TSSOP
 0
 10
 10
+switch_mux_demux
+1-0000496
+Power Switch/Driver 1:1 N-Channel 200mA PG-SOT223-4
+CMS SOT
+0
+4
+4
 switches
 1-0000031
 Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle
